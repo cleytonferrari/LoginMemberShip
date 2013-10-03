@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Login</h2>
+
+<form method="POST" action="@Url.Action("Logar")">
+    <input type="text" value=""  placeholder="Usuario" id="usuario" name="usuario"/><br/>
+    <input type="password" value="" id="senha" name="senha" />
+    <button type="submit">Logar</button>
+
+</form>
